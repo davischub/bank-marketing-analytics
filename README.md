@@ -20,6 +20,15 @@ O estudo usa o dataset público UCI Bank Marketing, na versão `bank-additional-
 2. Baixe e extraia `bank-additional-full.csv` do arquivo `bank-additional.zip` disponível na página da UCI. Envie o CSV para a sessão do Colab, em `/content/bank-additional-full.csv`.
 3. Execute as células em ordem. As dependências Python estão em `requirements.txt`.
 
-## Possibilidades futuras
+## Extensão: SQL, Machine Learning e Power BI
 
-SQL, Machine Learning e Power BI são possibilidades de evolução. Essas etapas ainda não foram implementadas neste estudo.
+O notebook [`02_sql_ml_powerbi.ipynb`](notebooks/02_sql_ml_powerbi.ipynb) contém um **roteiro executável**, ainda pendente de validação de resultados no Colab, com consultas SQL em SQLite, uma Regressão Logística inicial para classificação de adesão e exportação de três CSVs para Power BI.
+
+As consultas também estão documentadas em [`sql/consultas_adesao.sql`](sql/consultas_adesao.sql). As instruções para montar um dashboard estão em [`powerbi/INSTRUCOES.md`](powerbi/INSTRUCOES.md). **Ainda não existe painel `.pbix` neste repositório.**
+
+### Execução da extensão
+
+1. Abra o [notebook de extensão no Colab](https://colab.research.google.com/github/davischub/bank-marketing-analytics/blob/main/notebooks/02_sql_ml_powerbi.ipynb).
+2. Envie `bank-additional-full.csv` para `/content/`.
+3. Execute as células em ordem e avalie as métricas geradas antes de mencionar resultados.
+
